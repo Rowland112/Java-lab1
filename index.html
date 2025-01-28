@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab 1 | COMP1073 Client-Side JavaScript</title>
+    <link href="styles.css" rel="stylesheet" />
+    <script src="silly-story.js" defer></script> <!-- Ensure JS loads after DOM is ready -->
+</head>
+
+<body>
+<div>
+    <label for="customname">Enter custom name:</label>
+    <input id="customname" type="text" placeholder="Your name here" />
+</div>
+<div>
+    <label for="imperial">Imperial</label>
+    <input id="imperial" type="radio" name="units" value="imperial" checked />
+    <label for="metric">Metric</label>
+    <input id="metric" type="radio" name="units" value="metric" />
+</div>
+<div>
+    <button class="randomize">Generate random story</button>
+</div>
+<p class="story"></p>
+</body>
+</html>
